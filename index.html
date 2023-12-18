@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="handmade, crafts, products">
-    <meta name="description" content="Handmade Crafts - Beautiful handmade products for sale">
+    <meta name="description" content="Изделия ручной работы">
     <title>Handmade Crafts Store</title>
     <link rel="stylesheet" href="Styles.css">
 </head>
@@ -28,7 +28,7 @@
         <div class="section__suptitle">Лучшие изделия в этом месяце</div>
       </div>
 <div>
-        
+
         <section class="Product">
 
                 <div class="Product_item">
@@ -76,8 +76,40 @@
                 </div>
 
 
+                <div class="Product_item">
+                <div class="product_buttons">
+
+                  <div class="bar">
+                      <button id="myButton">Вывести все посты</button>
+                    </div>
+                    <div class="bar">
+                      <button id="Posts">Вывести пост:</button>
+                      <input id="post" placeholder="Введите номера поста...">
+                    </div>
+                    <div class="bar">
+                      <button id="Filter">Фильтрация: </button>
+                      <input id="nameFil" placeholder="Введите номер пользователя...">
+                    </div>
+                </div>
+              </div>
+
         </section>
 </div>
+
+<section >
+    <form id="postForm">
+        <input id="name" placeholder="Введите имя">
+          <textarea id="postContent" placeholder="Введите отзыв..."></textarea>
+          <button type="submit">Опубликовать</button>
+      </form>
+
+
+<h3>Отзывы пользователей</h3>
+
+<div id="reviewsContainer">
+</div>
+
+</section>
 
 
     </main>
@@ -85,5 +117,8 @@
     <footer>
         <p>&copy; 2023 Handmade Crafts Store. All rights reserved.</p>
     </footer>
+
+  <script src="apijson.js"></script>
+
 </body>
 </html>

@@ -119,6 +119,26 @@ text-align: center;
 }
 
 
+.bar{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    margin: 20px;
+}
+button{
+  display: inline-block;
+  background-color: #BDB76B;
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+input{
+    width: 200px;
+}
+
 footer {
     background-color: #BDB76B;
     color: #fff;
@@ -126,18 +146,16 @@ footer {
     padding: 10px 0;
 }
 
-
-
                           /*media*/
 
   @media (max-width: 1300px) {
 
-      /* work photo*/
-      .our_work {
+
+      .Product {
         margin: auto;
         justify-content: center;
   }
-    .work_photo {
+    .Product__img {
       width: 100%;
       max-width: 416px;
       flex: none;
@@ -201,14 +219,14 @@ footer {
           font-size: 40px;
         }
         .section__suptitle {
-          font-size: 100px;
+          font-size: 21px;
         }
         .section__text {
             font-size: 24px;
         }
           /*about us*/
         .section__suptitle2 {
-          font-size: 45px;
+          font-size: 18px;
         }
         .work {
           margin: auto;
